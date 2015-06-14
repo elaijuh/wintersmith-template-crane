@@ -34,6 +34,24 @@ h3 {
   margin-bottom: 0.8em;
 }
 
+blockquote {
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
 
 /*page header*/
 header.header {
@@ -158,7 +176,6 @@ article .tagline .tagline-item .date {
   font-weight: 100;
 } 
 
-
 article .tagline .tagline-item .title h2 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 700;
@@ -166,7 +183,7 @@ article .tagline .tagline-item .title h2 {
   margin-bottom: 0;
 }
 
-article .tagline .tagline-item .title a {
+article .tagline .tagline-item a {
   text-decoration: none;
   color: #555;
 }
