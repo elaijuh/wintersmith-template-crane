@@ -1,0 +1,7 @@
+{
+  "id": "angularjs",
+  "name": "Angular JS",
+  "cssClass": "angularjs",
+  "description": "Angular JS framework",
+  "template": "tag.jade"
+}

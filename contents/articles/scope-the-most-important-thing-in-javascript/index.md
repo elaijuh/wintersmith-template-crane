@@ -2,9 +2,12 @@
 title: Scope, the most important thing in javascript
 date: 2015-01-31 23:07:59
 template: article.jade
+tags: javascript
 ---
 
 Scope and scope chain, the most important mechanism in JavaScript, are barely clearly explained though specified in ECMA-262 version 5.1. Without scope mechanism, there wouldn't be closure and functional programming. This post is aim to elaborate what happens behind from the very beginning when control enters the global code to execution end.
+
+<span class="more"></span>
 
 Firstly, for easy literal, let's agree on the following abbreviation:
 `GE`: Global Environment
@@ -142,4 +145,5 @@ When control comes to `console.log(b)`, it will first find the variable `b` in `
 ---
 
 [ecma-262 5.1 sec-13.2](http://www.ecma-international.org/ecma-262/5.1/#sec-13.2)
+
 [ecma-262 5.1 sec-10.4.3](http://www.ecma-international.org/ecma-262/5.1/#sec-10.4.3) 

@@ -1,0 +1,7 @@
+{
+  "id": "iojs",
+  "name": "iojs",
+  "cssClass": "iojs",
+  "description": "Fork of Node",
+  "template": "tag.jade"
+}

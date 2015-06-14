@@ -1,0 +1,7 @@
+{
+  "id": "nodejs",
+  "name": "Node",
+  "cssClass": "nodejs",
+  "description": "http://nodejs.org",
+  "template": "tag.jade"
+}

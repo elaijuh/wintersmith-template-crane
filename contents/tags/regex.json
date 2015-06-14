@@ -1,0 +1,7 @@
+{
+  "id": "regex",
+  "name": "Regular expression",
+  "cssClass": "regex",
+  "description": "Regular expression",
+  "template": "tag.jade"
+}

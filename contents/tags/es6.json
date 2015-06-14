@@ -1,0 +1,7 @@
+{
+  "id": "es6",
+  "name": "ECMAScript 6",
+  "cssClass": "es6",
+  "description": "ECMAScript 6",
+  "template": "tag.jade"
+}
