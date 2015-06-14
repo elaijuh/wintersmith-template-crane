@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8080/",
+    "url": "http://www.hujiale.me",
     "name": "Jiale's site",
     "owner": "Jiale Hu",
     "description": "Finite to failures, infinite to venture"
@@ -21,6 +21,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 3
-  },
+    "perPage": 5
+  }
 }

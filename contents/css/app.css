@@ -115,7 +115,7 @@ article.article {
   margin-bottom: 0;
 }
 
-.article-detail .content-wrap .title {
+.article-detail .content-wrap h1.title {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 700;
   text-align: center;
@@ -214,25 +214,24 @@ footer .copy a {
 code {
   font-family: 'Source Code Pro', Consolas, monospace;
   font-size: 0.85em;
-  color: #000;
+  padding: 0.1em 0.3em 0.2em;
+  border-radius: 0.3em;
+  position: relative;
+  border: 0px;
+  color: #fff;
+  background: #555;
+
+  white-space: nowrap;
 }
 
-pre code {
+pre > code {
   display: block;
   background: white;
   line-height: 1.2;
   overflow: auto;
   margin-bottom: 1.8em;
-}
-
-p code {
-  padding: 0.1em 0.3em 0.2em;
-  border-radius: 0.3em;
-  position: relative;
-  background: #eee;
-  border: 0px;
-
-  white-space: nowrap;
+  color: #333;
+  border: 1px solid #e1e1e1;
 }
 
 /* syntax hl stuff */

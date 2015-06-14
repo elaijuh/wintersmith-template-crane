@@ -11,7 +11,7 @@ html(lang='en')
         block title
           = locals.name
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
-      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:100,300,400|Source+Code+Pro:300,400')
+      <!-- link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:100,300,400|Source+Code+Pro:300,400') -->
       link(rel='stylesheet', href=contents.css['normalize.css'].url)
       link(rel='stylesheet', href=contents.css['skeleton.css'].url)
       link(rel='stylesheet', href=contents.css['app.css'].url)
@@ -20,7 +20,6 @@ html(lang='en')
         ga('create', 'UA-57201547-1', 'auto');
         ga('send', 'pageview');
   body(class=bodyclass).container
-    //- include header
     header.header
       div.content-wrap
         block header
