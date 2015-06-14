@@ -1,0 +1,302 @@
+h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
+  margin: 0; padding: 0; border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #333;
+}
+
+
+p {
+  margin-bottom: 1.0em;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.43;
+  margin-bottom: 1.35em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+
+/*page header*/
+header.header {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  border-bottom: 1px dotted;
+}
+
+header.header .avatar img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
+
+header.header .author .name h1 {
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  text-rendering: auto;
+  font-weight: 700;
+  font-size: 3em;
+  color: #333;
+}
+
+.header .author .status {
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+
+/*article*/
+
+article.article {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.article header {
+  margin-bottom: 1.2em;
+}
+.article header h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+
+
+.article header h2 a {
+  text-decoration: none;
+  color: #555;
+}
+
+.article header .date {
+  font-weight: 100;
+}
+
+.article .content {
+  font-weight: 300;
+  font-size: 1.2em
+}
+
+.article .content a {
+  color: #333;
+}
+
+.article .content .more a {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 0.8em;
+  color: #555;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.article.article.intro p {
+  margin-bottom: 0;
+}
+
+.article-detail .content-wrap .title {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.article-detail .content-wrap .date {
+  font-weight: 100;
+  text-align: center;
+}
+
+.article-detail .content-wrap .tags {
+  font-weight: 100;
+  text-align: center;
+}
+
+.article-detail .content-wrap .tags a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #555;
+}
+
+
+/* tagline */
+
+article .tagline .header {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+article .tagline .tagline-item {
+  font-weight: 300;
+  margin-bottom: 2em;
+}
+
+article .tagline .tagline-item .date {
+  font-weight: 100;
+} 
+
+
+article .tagline .tagline-item .title h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+
+article .tagline .tagline-item .title a {
+  text-decoration: none;
+  color: #555;
+}
+
+article .tagline .tagline-item .intro {
+  font-size: 1.2em;
+}
+
+
+/* nav */
+
+.nav a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #555;
+}
+
+
+/* footer */
+
+footer {
+  margin: 7.5em 0 3em 0;
+  padding: 1em 0;
+  border-top: 1px dotted;
+  font-weight: 100;
+}
+
+footer .nav ul {
+  list-style-type: none
+}
+
+footer .nav li {
+  display: inline;
+  margin-right: 1em;
+}
+
+footer .copy a {
+  text-decoration: none;
+  color: #555;
+}
+
+
+/* code styling */
+
+code {
+  font-family: 'Source Code Pro', Consolas, monospace;
+  font-size: 0.85em;
+  color: #000;
+}
+
+pre code {
+  display: block;
+  background: white;
+  line-height: 1.2;
+  overflow: auto;
+  margin-bottom: 1.8em;
+}
+
+p code {
+  padding: 0.1em 0.3em 0.2em;
+  border-radius: 0.3em;
+  position: relative;
+  background: #eee;
+  border: 0px;
+
+  white-space: nowrap;
+}
+
+/* syntax hl stuff */
+
+code.lang-markdown {
+  color: #424242;
+}
+
+code.lang-markdown .header,
+code.lang-markdown .strong {
+  font-weight: bold;
+}
+
+code.lang-markdown .emphasis {
+  font-style: italic;
+}
+
+code.lang-markdown .horizontal_rule,
+code.lang-markdown .link_label,
+code.lang-markdown .code,
+code.lang-markdown .header,
+code.lang-markdown .link_url {
+  color: #555;
+}
+
+code.lang-markdown .blockquote,
+code.lang-markdown .bullet {
+  color: #bbb;
+}
+
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+.tomorrow-comment, pre .comment, pre .title {
+  color: #8e908c;
+}
+
+.tomorrow-red, pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby .constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
+  color: #c82829;
+}
+
+.tomorrow-orange, pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+  color: #f5871f;
+}
+
+.tomorrow-yellow, pre .class, pre .ruby .class .title, pre .css .rules .attribute {
+  color: #eab700;
+}
+
+.tomorrow-green, pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+  color: #718c00;
+}
+
+.tomorrow-aqua, pre .css .hexcolor {
+  color: #3e999f;
+}
+
+.tomorrow-blue, pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .title, pre .coffeescript .title {
+  color: #4271ae;
+}
+
+.tomorrow-purple, pre .keyword, pre .javascript .function {
+  color: #8959a8;
+}
+
+

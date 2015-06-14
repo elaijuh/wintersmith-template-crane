@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  article
+    section.content.tagline
+      h2.header
+        = page.metadata.name
+      - var articles = env.helpers.getArticles(contents);
+      - tagId = page.metadata.id;
+        each article in articles
+          - var articleTags = article.metadata.tags;
+          - if (articleTags && articleTags.indexOf(tagId) >= 0)
+            div.tagline-item.row
+              div.two.columns
+                div.title
+                  h2
+                    a(href=article.url)
+                      = article.title
+                div.date
+                  = moment(article.date).format('DD MMMM YYYY')
+              div.intro.ten.columns
+                if article.intro.length > 0
+                  != typogr(article.intro).typogrify()
+block paging
+  span

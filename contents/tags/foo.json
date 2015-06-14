@@ -1,0 +1,7 @@
+{
+  "id": "foo",
+  "name": "Tag Foo",
+  "cssClass": "foo",
+  "description": "foo",
+  "template": "tag.jade"
+}
