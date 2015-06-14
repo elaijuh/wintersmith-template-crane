@@ -10,6 +10,7 @@ io.js has released version 1.3.0 shipping with V8 4.1.0.14 while Node.js v0.12.x
 <span class="more"></span>
 
 - Block scoping
+
 ```javascript
 'use strict';
 
@@ -26,6 +27,7 @@ const foo = 'bar'; // SyntaxError: Identifier 'foo' has already been declared
 ---
 
 - collection
+
 ```javascript
 // Map
 var map = new Map();
@@ -52,6 +54,7 @@ for (let kv of set.entries()) { // [1, 1], [2, 3], [{}, {}]
 ---
 
 - Generator
+
 ```javascript
 function* gen(i) {
     yield i;
@@ -70,6 +73,7 @@ console.log(g.next().done); // true
 ---
 
 - Binary and Octal literals
+
 ```javascript
 0b10 // binary 10 -> decimal 2
 0B10 // binary 10 -> decimal 2
@@ -80,6 +84,7 @@ console.log(g.next().done); // true
 ---
 
 - Promise
+
 ```javascript
 var p = new Promise(function (resolve, reject) {
     setTimeout(function () {
@@ -95,6 +100,7 @@ p.then(function (val) {
 ---
 
 - New String method
+
 ```javascript
 console.log(String.fromCodePoint(20013, 22269)); //中国
 console.log('中国'.codePointAt(0)); // 20013
@@ -107,6 +113,7 @@ console.log('mopododa'.endsWith('da')); // true
 ---
 
 - Symbol
+
 ```javascript
 var foo = Symbol(), bar = Symbol();
 var o = {};
@@ -117,6 +124,7 @@ o[bar] = 'bar';
 ---
 
 - Template strings
+
 ```javascript
 var foo = 'fool';
 console.log(`bar loves ${foo}`); // bar loves fool
