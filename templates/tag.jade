@@ -11,13 +11,13 @@ block content
           - var articleTags = article.metadata.tags;
           - if (articleTags && articleTags.indexOf(tagId) >= 0)
             div.tagline-item.row
-              div.two.columns
+              div.three.columns
                 div.title
                   h2
                     a(href=article.url)
                       = article.title
                 div.date
                   = moment(article.date).format('DD MMMM YYYY')
-              div.intro.ten.columns
+              div.intro.nine.columns
                 if article.intro.length > 0
                   != typogr(article.intro).typogrify()
